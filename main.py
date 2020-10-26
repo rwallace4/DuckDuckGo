@@ -12,7 +12,7 @@ def test_ddg0():
     assert "DuckDuckGo" in rsp_data["Heading"]
 
 @pytest.mark.parametrize("url, president", [(url_ddg, "Washington"),(url_ddg, "Adams"),(url_ddg, "Jefferson")
-    ,(url_ddg, "Madison"),(url_ddg, "Monroe"),(url_ddg, "Jackson"), ,(url_ddg, "Buren")
+    ,(url_ddg, "Madison"),(url_ddg, "Monroe"),(url_ddg, "Jackson"), (url_ddg, "Buren")
     ,(url_ddg, "Harrison"),(url_ddg, "Tyler"),(url_ddg, "Polk"),(url_ddg, "Taylor"),(url_ddg, "Fillmore"),(url_ddg, "Pierce")
     ,(url_ddg, "Buchanan"),(url_ddg, "Lincoln"),(url_ddg, "Johnson"),(url_ddg, "Grant"),(url_ddg, "Hayes"),(url_ddg, "Garfield")
     ,(url_ddg, "Arthur"),(url_ddg, "Cleveland"),(url_ddg, "Harrison"),(url_ddg, "McKinley"),(url_ddg, "Roosevelt"),(url_ddg, "Taft")
